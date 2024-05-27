@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Blog card
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a blog card design created using Next.js 14 and Tailwind CSS. It includes responsive designs for both desktop and mobile views.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Design
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The design for the blog card is available on Figma. You can view the design prototype through the following link:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[View Design on Figma](https://www.figma.com/design/e1AgI7RHyX9faU2UEwv5Nr/Untitled?node-id=0-1&t=utm3DYKJ1CfLeitQ-0)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Technologies Used
 
-## Learn More
+- **Next.js 14**: A React framework for building fast, user-friendly web applications.
+- **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Responsive Design**: The blog card design is optimized for both desktop and mobile devices.
+- **Modern UI**: Following the latest design trends with a focus on usability and aesthetics.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+To set up the project locally, follow these steps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the repository**:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   git clone https://github.com/pinkduwcdev/hongducdev-Code-with-tee-challenge.git
+   cd hongducdev-Code-with-tee-challenge
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   pnpm install
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   pnpm run dev
+   ```
+
+4. **Open your browser and navigate to**:
+
+   ```
+   http://localhost:3000
+   ```
+
+## Usage
+
+- Modify the components in the `components` directory to update the blog card design.
+- Use the styles in the `styles` directory to customize the look and feel.
+
+## Preview
+
+### Desktop View
+![desktop](https://github.com/pinkduwcdev/hongducdev-Code-with-tee-challenge/assets/167205501/b8874de1-e6e2-4933-8e79-da78e3576425)
+
+### Mobile View
+![mobile](https://github.com/pinkduwcdev/hongducdev-Code-with-tee-challenge/assets/167205501/3601b9bb-854e-43bf-aa5e-15a7001424e9)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
+
+## Contact
+
+If you have any questions or feedback, please feel free to contact me at [your-email@example.com](mailto:your-email@example.com).
+
+---
+
+Happy coding!
